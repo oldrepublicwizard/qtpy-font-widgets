@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qtpy-font-widgets"
+version = "0.1.0"
+description = "Qt font picker widgets (qtpy)"
+readme = "README.md"
+license = { text = "LGPL-3.0-or-later" }
+requires-python = ">=3.8"
+authors = [{ name = "oldrepublicwizard" }]
+dependencies = [
+    "qtpy",
+]
+
+[project.urls]
+Homepage = "https://github.com/oldrepublicwizard/qtpy-font-widgets"
+Repository = "https://github.com/oldrepublicwizard/qtpy-font-widgets"
+
+[tool.setuptools.packages.find]
+where = ["src"]
