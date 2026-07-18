@@ -1,16 +1,12 @@
 # qtpy-font-widgets
 
-Custom Qt font picker UI (`FontDialog`, `FontWidget`, size/style helpers).
+Font picker widgets for qtpy apps. Not much else to say.
 
 ## Install
 
 ```bash
-pip install -e .
+pip install git+https://github.com/oldrepublicwizard/qtpy-font-widgets.git
 ```
-
-## Origin
-
-Extracted from PyKotor `utility/gui/qt/widgets/font/`.
 
 ## License
 
